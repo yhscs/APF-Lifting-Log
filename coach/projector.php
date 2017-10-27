@@ -40,9 +40,9 @@ if((int)$_SESSION["WEEK_GLOBAL"] % 3 == "0") {
 }
 ?>
 <div style="display: block; overflow: auto;" >
-<table style="margin-bottom: 0;">
-	<tr>
-		<th>Name</th>
+<table style="position: fixed;">
+    <tr>
+		<th style="width: 250px">Name</th>
 		<th colspan="4">Bench</th>
 		<th colspan="4">Dead Lift</th>
 		<th colspan="4">Back Squat</th>
@@ -58,8 +58,10 @@ if((int)$_SESSION["WEEK_GLOBAL"] % 3 == "0") {
 		<th>MAX</th>
 		<th>AMRAP</th>
 	</tr>
+    </table>
+    <table style="margin-bottom: 0; margin-top: 150px">
 <?php
-$stmt = $conn->prepare("SELECT * FROM STUDENT$ WHERE COACH = :coach AND SEMESTER = :semester AND PERIOD = :period");
+$stmt = $conn->prepare("SELECT * FROM STUDENT$ WHERE COACH = :coach AND SEMESTER = :semester AND PERIOD = :period ORDER BY NAME");
 $stmt->execute(array('coach' => $_SESSION['login_user'],
 					 'semester' => $_SESSION["SEMESTER_GLOBAL"],
 					 'period' => $_SESSION["PERIOD_GLOBAL"]));
