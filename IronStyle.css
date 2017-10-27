@@ -1,0 +1,137 @@
+.worldWrap {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 1600px;
+	background-color: #000;
+	text-align: center;
+	font-family: Helvetica, Arial, "Times New Roman", sans-serif;
+}
+.contentWrap {
+	width: 90%;
+	left: 5%;
+	position: absolute;
+	height: 100%;
+	top: 0px;
+}
+.navBubble {
+	background-color: #8E0000;
+	padding: 10px;
+}
+
+.navWrapper {
+	height: 75px;
+	color: #FFF;
+	text-align: center;
+}
+.navBar {
+	list-style-type: none;
+	display: inline;
+}
+.navList {
+	display: inline;
+	margin: 80px;
+}
+
+.mainContent {
+	top: 0px;
+	height: 1025px;
+	color: #FFF;
+	text-align: center;
+}
+#logIn {
+	margin: 10px;
+}
+#logIn:hover {
+	cursor:pointer;
+}
+
+.headWrap {
+	height: 300px;
+}
+.footWrapper {
+	height: 200px;
+}
+.logoWrap {
+	top: 50px;
+	position: absolute;
+	width: 100%;
+}
+.headSpacer {
+	height: 50px;
+}
+.imageText {
+	color: #FFF;
+	margin: 20px;
+	font-family: Helvetica, Arial, "Times New Roman", sans-serif;
+}
+
+.logoBorder {
+	border: thick solid #FFF;
+}
+.contentWindowOne {
+	display: inline-block;
+	width: 28%;
+	margin: 30px;
+	float: left;
+	height: 350px;
+}
+.contentWindowImage {
+	height: 200px;
+}
+.footerText1 {
+	font-family: Helvetica, Arial, "Times New Roman", sans-serif;
+	color: #FFF;
+}
+.mainContentLog {
+	top: 0px;
+	height: 1025px;
+	color: #FFF;
+	text-align: left;
+}
+#liftInput {
+	display: inline-block;
+	width: 50%;
+}
+#viewScreen {
+}
+#adminSubmitButton {
+	background-color: #8E0000;
+	text-align: center;
+	width: 100px;
+	margin: 15px;
+	height: 25px;
+	vertical-align: middle;
+}
+.liftInfo {
+	float: right;
+	width: 50%;
+	text-align: center;
+	color: #FFF;
+}
+#submitButton {
+	background-color: #8E0000;
+	text-align: center;
+	width: 100px;
+	margin: 15px;
+	height: 25px;
+	vertical-align: middle;
+}
+#adminSubmitButton:hover{
+	cursor:pointer;
+}
+#submitButton:hover{
+	cursor:pointer;
+}
+#getButton {
+	background-color: #8E0000;
+	text-align: center;
+	width: 100px;
+	margin: 15px;
+	height: 25px;
+	vertical-align: middle;
+}
+#getButton:hover {
+	cursor:pointer;
+}

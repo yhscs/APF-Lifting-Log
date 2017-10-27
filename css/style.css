@@ -1,0 +1,260 @@
+body {
+	padding: 0;
+	margin:0;
+	width:100%;
+	background-color: #000;
+	font-family:helvetica;
+}
+span {
+	padding: 10px 0 0 0;
+	margin:0 auto;
+	color:red;
+	text-align:center;
+	display: block;
+}
+h1 {
+	padding:15px;
+	margin:0;
+	background-color:#ddd;
+	text-align:center;
+	border-radius:8px 8px 0 0;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+h3 {
+	padding: 0 12px 8px 44px;
+	margin: 0;
+	text-align:left;
+	color: #777;
+}
+#login {
+	padding: 0 0 16px 0;
+	margin: 70px auto;
+	max-width:380px;
+	border-radius:10px;
+	font-family:helvetica;
+	border:2px solid #ccc;
+	background-color:#eee;
+}
+#username,#password {
+	padding:10px;
+	width:100%;
+	border:1px solid #ccc;
+	font-size:16px;
+	font-family:raleway;
+	box-sizing: border-box;
+}
+#navbar {
+	display: inline-block;
+	width: 100%;
+}
+#header{
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+#header a{
+	display: inline-block;
+	float: left;
+	width: 20%;
+	height: 100px;
+}
+#exit a{
+	display: inline-block;
+	float: left;
+	width: 40%;
+	height: 100px;
+}
+#confcenter a {
+	display: block;
+	width: 20%;
+	height: 60px;
+	margin: 20px auto;
+}
+#dropdowns{
+	display: block;
+	width: 100%;
+}
+
+#body {
+	padding: 0;
+	margin: 10px 10px;
+	border-radius:10px;
+	border:2px solid #ccc;
+	background-color:#eee;
+}
+
+.pseudobody {
+	padding: 0;
+	margin: 10px 10px;
+	border-radius:10px;
+	border:2px solid #ccc;
+	background-color:#eee;
+}
+
+.headlink {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #385D8A;
+	background-color: #4F81BD;
+	padding: 5px;
+	text-decoration: none;
+}
+.headlink:hover, .headlink:focus {
+	border: 2px solid #587DAA;
+	background-color: #6FA1DD;
+}
+
+.textheadlink {
+	position: relative;
+    top: 30%;
+	color: #FFF;
+	text-align: center;
+	font-size: 20px;
+	width: 100%;
+}
+.padding {
+	padding:0 40px;
+}
+.login {
+	padding-top: 20px;
+}
+.center {
+	text-align:center;
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+	padding: 0;
+	max-width: 700px;
+}
+.text{
+	padding:10px;
+	width:100%;
+	border:1px solid #ccc;
+	font-size:16px;
+	font-family:raleway;
+	box-sizing: border-box;
+}
+select.classestext{
+	width: 100%; 
+	min-width: 10px;
+	font-size: 16px;
+	font-family: raleway;
+	padding:10px;
+	border:1px solid #ccc;
+	box-sizing: border-box;
+}
+.titlepadding {
+    padding: 8px 0px 0px 2px;
+}
+
+select {
+	padding:10px;
+	font-size: 22px;
+	min-width:300px;
+}
+
+input[type=submit], button { 
+	width:100%;
+	background-color:#B00;
+	color:#fff;
+	border:2px solid #D00;
+	padding:10px;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:5px;
+	margin:6px 0 0;
+	box-sizing: border-box;
+}
+input[type=submit].goodbutton, button.goodbutton {
+	background-color: #0A0;
+	border: 2px solid #0C0;
+}
+
+input[type=submit]:hover , button:hover, input[type=submit]:focus , button:focus{
+	background-color:#D00;
+	border:2px solid #F00;
+}
+input[type=submit].goodbutton:hover , button.goodbutton:hover, input[type=submit].goodbutton:focus , button.goodbutton:focus {
+	background-color:#0C0;
+	border:2px solid #0E0;
+}
+
+table {
+    border-collapse: collapse;
+	width: 98%;
+	margin: 50px auto;
+}
+table, th, td {
+    border: 1px solid gray;
+	padding: 3px 10px;
+	min-width: 50px;
+}
+table tr:nth-child(even) {
+    background-color: #ddd;
+}
+table tr:nth-child(odd) {
+	background-color:#fff;
+}
+table th	{
+    background-color: black;
+	border: 2px solid grey;
+    color: white;
+	font-size: 30px;
+	text-align: left;
+}
+table td {
+	font-size: 24px;
+}
+.huge th {
+	font-size: 30px;
+}
+.huge td {
+	font-size: 24px;
+}
+#speciallink {
+	background-color:#D00;	color:#fff;	border:2px solid #FF0000; padding:10px;	font-size:20px; cursor:pointer; border-radius:5px;
+}
+#speciallink:hover, #speciallink:focus {
+	background-color:#F22;
+}
+@media screen and (max-width: 1199px) {
+	table th {
+		font-size: 20px;
+	}
+	table td {
+		font-size: 18px;
+	}
+	table th, table tr, table td {
+		min-width: 0 !important;
+	}
+}
+
+@media screen and (max-width: 999px) {
+	#dropdowns select {
+		width: 100%;
+		min-width: 0 !important;
+	}
+    #dropdowns form {
+		width: 60%;
+		float: right !important;
+		min-width: 0 !important;
+	}
+}
+
+@media screen and (max-width: 869px) {
+	table th {
+		font-size: 12px;
+	}
+	table td {
+		font-size: 14px;
+	}
+	.textheadlink {
+		font-size: 14px !important;
+	}
+	#login {
+		margin: 30px auto;
+	}
+}
